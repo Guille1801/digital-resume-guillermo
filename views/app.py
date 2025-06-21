@@ -6,8 +6,9 @@ from PIL import Image
 #--- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "style" / "main.css"
-resume_file_sp = current_dir / "assets" / "Guillermo CV.pdf"
-resume_file_en = current_dir / "assets" / "David CV.pdf"
+resume_file_sp = current_dir / "assets" / "Guillermo_CV_es.pdf"
+resume_file_en = current_dir / "assets" / "Guillermo_CV_en.pdf"
+resume_file_jp = current_dir / "assets" / "Guillermo_Anhuaman履歴書.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 with open("views/assets/linkedin.svg", "r", encoding="utf-8") as f:
     linkedin_icon = f.read()
